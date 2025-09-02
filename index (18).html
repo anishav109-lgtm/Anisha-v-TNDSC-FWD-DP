@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design • Develop • Deliver</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #222;
+    }
+    .section {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 25px;
+    }
+    .section h2 {
+      color: #0056b3;
+      margin-bottom: 10px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    /* contact section */
+    .contact-section {
+      max-width: 500px;
+      margin: 60px auto;
+      padding: 20px;
+    }
+    .contact-section h2 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      border-left: 6px solid #1e90ff;
+      padding-left: 10px;
+    }
+    .contact-form {
+      background: #1b263b;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 8px;
+      background: #0d1b2a;
+      color: #fff;
+      font-size: 16px;
+    }
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+      color: #bbb;
+    }
+    .contact-form textarea {
+      resize: none;
+      height: 120px;
+    }
+    .contact-form button {
+      width: 100%;
+      padding: 14px;
+      background: #1e90ff;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .contact-form button:hover {
+      background: #0b73d9;
+    }
+    /* link button */
+    .link-btn {
+      display: block;
+      width: 200px;
+      margin: 30px auto;
+      padding: 12px;
+      text-align: center;
+      background: #0056b3;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .link-btn:hover {
+      background: #003d80;
+    }
+  </style>
+</head>
+<body>
+  <h1>Design • Develop • Deliver</h1>
+
+  <div class="section">
+    <h2>Design</h2>
+    <ul>
+      <li>Requirement gathering & analysis</li>
+      <li>Wireframes & mockups</li>
+      <li>UI/UX design tools (Figma, Adobe XD)</li>
+      <li>Interactive prototypes</li>
+      <li>Accessibility compliance check</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Develop</h2>
+    <ul>
+      <li>Frontend & backend development</li>
+      <li>Database & API integration</li>
+      <li>Responsive design (mobile-friendly)</li>
+      <li>Automated testing & debugging</li>
+      <li>CI/CD pipelines</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Deliver</h2>
+    <ul>
+      <li>Deployment on hosting/cloud</li>
+      <li>SEO & analytics setup</li>
+      <li>User training & documentation</li>
+      <li>Support & maintenance</li>
+      <li>Performance monitoring dashboards</li>
+    </ul>
+  </div>
+
+  <!-- Link button to contact section -->
+  <a href="#contact" class="link-btn">Contact Me</a>
+
+  <!-- Contact section -->
+  <div class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Write your message..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+</body>
+</html>
